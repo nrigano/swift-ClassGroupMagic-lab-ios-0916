@@ -12,6 +12,10 @@
 		5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DDD1D9C519B003DCE37 /* Main.storyboard */; };
 		5B077DE11D9C519B003DCE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE01D9C519B003DCE37 /* Assets.xcassets */; };
 		5B077DE41D9C519B003DCE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */; };
+		95656B091D9C63F300FD4DDA /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95656B061D9C63F300FD4DDA /* PizzaDeliveryService.swift */; };
+		95656B0A1D9C63F300FD4DDA /* coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95656B071D9C63F300FD4DDA /* coordinates.swift */; };
+		95656B0B1D9C63F300FD4DDA /* tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95656B081D9C63F300FD4DDA /* tiger.swift */; };
+		95656B0D1D9C6D9D00FD4DDA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95656B0C1D9C6D9D00FD4DDA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5B077DE01D9C519B003DCE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B077DE31D9C519B003DCE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B077DE51D9C519B003DCE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95656B061D9C63F300FD4DDA /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		95656B071D9C63F300FD4DDA /* coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coordinates.swift; sourceTree = "<group>"; };
+		95656B081D9C63F300FD4DDA /* tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tiger.swift; sourceTree = "<group>"; };
+		95656B0C1D9C6D9D00FD4DDA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		5B077DD81D9C519B003DCE37 /* PeopleAndPizza */ = {
 			isa = PBXGroup;
 			children = (
+				95656B061D9C63F300FD4DDA /* PizzaDeliveryService.swift */,
+				95656B0C1D9C6D9D00FD4DDA /* Person.swift */,
+				95656B071D9C63F300FD4DDA /* coordinates.swift */,
+				95656B081D9C63F300FD4DDA /* tiger.swift */,
 				5B4F927E1D9C533B00B9360D /* Supporting Files */,
 			);
 			path = PeopleAndPizza;
@@ -145,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95656B0D1D9C6D9D00FD4DDA /* Person.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,
+				95656B091D9C63F300FD4DDA /* PizzaDeliveryService.swift in Sources */,
+				95656B0B1D9C63F300FD4DDA /* tiger.swift in Sources */,
+				95656B0A1D9C63F300FD4DDA /* coordinates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
